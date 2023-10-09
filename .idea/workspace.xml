@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43e76b40-0e97-448b-b39b-4e9ecd54b72f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/es3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/expection/BancaException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Banca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Banca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContoCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContoCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContoOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContoOnline.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,5 +54,9 @@
       <updated>1696851373272</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,3 +1,5 @@
+import expection.BancaException;
+
 public class ContoCorrente {
     String titolare;
     int nMovimenti;
@@ -10,15 +12,26 @@ public class ContoCorrente {
         nMovimenti = 0;
     }
 
-    void preleva(double x) {
-        if (nMovimenti < maxMovimenti)
-            saldo = saldo - x;
-        else
-            saldo = saldo - x - 0.50;
-        nMovimenti++;
-    }
+    double preleva(double x) throws BancaException {
 
-    double restituisciSaldo() {
+
+          if(nMovimenti < maxMovimenti ){
+
+
+            saldo = saldo - x - 0.50;}
+
+         else{ saldo= saldo-x;}
+         nMovimenti++;
+         if(saldo-x<0){
+            throw new BancaException("il Contro è in rosso");
+        }
+         return saldo;}
+
+    public double restituisciSaldo() {
         return saldo;
     }
+
+
+
+
 }

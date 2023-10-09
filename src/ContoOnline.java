@@ -1,3 +1,5 @@
+import expection.BancaException;
+
 public class ContoOnline extends ContoCorrente {
     double maxPrelievo;
 
@@ -12,9 +14,10 @@ public class ContoOnline extends ContoCorrente {
                 + " - Massimo movimenti: " + maxMovimenti + " - Massimo prelievo possibile: " + maxPrelievo);
     }
 
-    void preleva(double x) {
+    double preleva(double x) throws BancaException {
         if (x <= maxPrelievo) {
             super.preleva(x);
         }
+        return x;
     }
 }

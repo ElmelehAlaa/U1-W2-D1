@@ -1,3 +1,5 @@
+import expection.BancaException;
+
 public class Banca {
     public static void main(String args[]) {
         ContoCorrente conto1 = new ContoCorrente("Grossi Mario", 20000.0);
@@ -13,7 +15,7 @@ public class Banca {
             e.printStackTrace();
         }
 
-        ContoOnline conto2 = new ContoOnLine("Rossi Luigi", 50350.0, 1500);
+        ContoOnline conto2 = new ContoOnline("Rossi Luigi", 50350.0, 1500);
 
         conto2.stampaSaldo();
 
